@@ -35,12 +35,4 @@ public class CompositeKey {
 	public void setTheatreName(String theatreName) {
 		this.theatreName = theatreName;
 	}
-
-	public CompositeKey() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-	
-	
-
 }
