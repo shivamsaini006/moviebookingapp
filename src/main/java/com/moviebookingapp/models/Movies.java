@@ -49,11 +49,4 @@ public class Movies {
 		this.totalNoOfTickets = totalNoOfTickets;
 	}
 
-	public Movies() {
-		super();
-	}
-
-	
-
-
 }
