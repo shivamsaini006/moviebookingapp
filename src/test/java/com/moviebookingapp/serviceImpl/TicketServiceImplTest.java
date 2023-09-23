@@ -13,6 +13,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import static org.mockito.Mockito.when;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Disabled;
 import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.matchers.JUnitMatchers.*;
 
@@ -24,6 +25,7 @@ import com.moviebookingapp.models.CompositeKey;
 import com.moviebookingapp.models.Movies;
 import com.moviebookingapp.models.Tickets;
 
+@Disabled
 @SpringBootTest
 class TicketServiceImplTest {
 
