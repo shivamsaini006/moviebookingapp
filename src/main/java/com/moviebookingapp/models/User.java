@@ -69,15 +69,6 @@ public class User {
 		this.contactNumber = contactNumber;
 	}
 
-	
-
-	public User() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
-
-
 	public String getLoginId() {
 		return loginId;
 	}
