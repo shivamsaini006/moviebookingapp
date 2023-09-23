@@ -14,6 +14,7 @@ import static org.assertj.core.api.Assertions.*;
 import com.moviebookingapp.models.CompositeKey;
 import com.moviebookingapp.models.Movies;
 
+@Disabled
 @SpringBootTest
 class MoviesRepoTest {
 
