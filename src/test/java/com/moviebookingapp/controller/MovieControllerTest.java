@@ -21,7 +21,6 @@ import com.moviebookingapp.exception.MovieNotAvailableException;
 import com.moviebookingapp.models.CompositeKey;
 import com.moviebookingapp.models.Movies;
 
-@Disabled
 @SpringBootTest
 class MovieControllerTest {
 
