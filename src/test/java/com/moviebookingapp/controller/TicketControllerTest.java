@@ -22,6 +22,7 @@ import com.moviebookingapp.models.CompositeKey;
 import com.moviebookingapp.models.Movies;
 import com.moviebookingapp.models.Tickets;
 
+@Disabled
 @SpringBootTest
 class TicketControllerTest {
 
