@@ -24,29 +24,4 @@ public class Movies {
 	@NotNull(message="Please enter total number of tickets available")
 	private int totalNoOfTickets;
 
-	
-
-	public Movies(CompositeKey key,
-			@NotNull(message = "Please enter total number of tickets available") int totalNoOfTickets) {
-		super();
-		this.key = key;
-		this.totalNoOfTickets = totalNoOfTickets;
-	}
-
-	public CompositeKey getKey() {
-		return key;
-	}
-
-	public void setKey(CompositeKey key) {
-		this.key = key;
-	}
-
-	public int getTotalNoOfTickets() {
-		return totalNoOfTickets;
-	}
-
-	public void setTotalNoOfTickets(int totalNoOfTickets) {
-		this.totalNoOfTickets = totalNoOfTickets;
-	}
-
 }
