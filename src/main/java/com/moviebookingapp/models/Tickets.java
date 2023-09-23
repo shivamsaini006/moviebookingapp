@@ -62,11 +62,4 @@ public class Tickets {
 		this.seatNumber = seatNumber;
 	}
 
-	public Tickets() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
-	
-
 }
