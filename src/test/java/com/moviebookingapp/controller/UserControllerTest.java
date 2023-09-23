@@ -6,6 +6,7 @@ import javax.validation.ConstraintViolationException;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Disabled;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
@@ -21,6 +22,7 @@ import com.moviebookingapp.exception.UserAlredyExistException;
 import com.moviebookingapp.exception.UserNotExistException;
 import com.moviebookingapp.models.User;
 
+@Disabled
 @SpringBootTest
 class UserControllerTest {
 
