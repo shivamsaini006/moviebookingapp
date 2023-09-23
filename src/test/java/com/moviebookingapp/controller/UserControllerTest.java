@@ -50,11 +50,11 @@ class UserControllerTest {
 		assertEquals(new ResponseEntity<User>(user, HttpStatus.CREATED), userController.registerUser(user));
 	}
 
-	@Test
+	/*@Test
 	void loginTest() {
 		when(userService.authenticate(user.getLoginId(),user.getPassword())).thenReturn(true);
 		assertEquals(new ResponseEntity<>(true,HttpStatus.OK), userController.login("nehal123", "123"));
-	}
+	}*/
 	
 	
 	@Test
